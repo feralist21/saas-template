@@ -1,0 +1,154 @@
+.header {
+  background-color: $blue;
+  padding-bottom: 66px;
+  padding-top: 34px;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 85px;
+}
+
+.header__link {
+  margin-right: auto;
+}
+
+.header__features {
+  margin: 0;
+  margin-bottom: 23px;
+
+  @include font(47px, 600, 1.13, -1px);
+  color: $white;
+}
+
+.header__text {
+  margin: 0;
+
+  @include font(16px, normal, 1.5, -0.5px);
+  color: $light-blue-text;
+}
+
+.header__image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 248px;
+  height: 233px;
+}
+
+.header__burger {
+  width: 23px;
+  height: 2px;
+  background-color: $white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 12px;
+
+  &::after {
+    content: '';
+    display: block;
+    width: 23px;
+    height: 2px;
+    background-color: $white;
+    border-radius: 4px;
+    position: relative;
+    top: 1px;
+    left: -6px;
+  }
+
+  &::before {
+    content: '';
+    display: block;
+    width: 23px;
+    height: 2px;
+    background-color: $white;
+    border-radius: 4px;
+    position: relative;
+    top: -5px;
+    left: -6px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding-bottom: 0;
+    padding-top: 28px;
+  }
+
+  .header__inner {
+    margin-bottom: 73px;
+  }
+
+  .header__left {
+    width: 295px;
+  }
+
+  .header__text {
+    width: 234px;
+  }
+
+  .header__intro-wrapper {
+    display: flex;
+    position: relative;
+  }
+
+  .header__intro-wrapper picture {
+    order: 2;
+  }
+
+
+  .header__image {
+    width: 417px;
+    height: 397px;
+  }
+}
+
+@media (min-width: 1440px) {
+
+  .header {
+    padding-top: 26px;
+    padding-bottom: 176px;
+  }
+
+  .header__burger {
+    display: none;
+  }
+
+  .header__inner {
+    margin-bottom: 162px;
+  }
+
+  .header__left {
+    width: 540px;
+  }
+
+  .header__features {
+    @include font(70px, 600, 1.2, -1.5px);
+  }
+
+  .header__image {
+    width: 1059px;
+    height: 773px;
+
+    position: absolute;
+    top: -117px;
+    right: -35px;
+  }
+
+  .header__text {
+    width: 423px;
+
+    @include font(18px, normal, 1.32, -0.5px);
+  }
+}
+
+
+
+
+
+
+

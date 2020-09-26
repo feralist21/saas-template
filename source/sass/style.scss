@@ -1,0 +1,31 @@
+@import "vars";
+@import "mixins";
+@import "fonts";
+
+/* Default styles */
+*,
+*::after,
+*::before { box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+ }
+
+
+/* Blocks */
+@import "blocks/container";
+@import "blocks/button";
+@import "blocks/site-link";
+@import "blocks/header";
+@import "blocks/site-list";
+@import "blocks/user-login";
+@import "blocks/nav";
+@import "blocks/video";
+@import "blocks/testimonials";
+@import "blocks/performance-list";
+@import "blocks/security";
+@import "blocks/start-crypto";
+@import "blocks/footer-list";
+@import "blocks/footer";
+@import "blocks/form";

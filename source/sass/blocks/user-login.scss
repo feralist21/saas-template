@@ -1,0 +1,61 @@
+.user-login {
+  list-style: none;
+  padding: 0;
+}
+
+.user-login__item {
+  display: none;
+}
+
+.user-login__link {
+  @include font(15px, normal, 1.2, 0.5px);
+  color: $white;
+  text-decoration: none;
+}
+
+.user-login__link:hover {
+  color: $yellow;
+  transition: color 0.5s linear;
+}
+
+.user-login__reg-link {
+  @include font(14px, 600, 1.21, 0.5px);
+  color: $white;
+  text-decoration: none;
+
+  padding: 13px 11px;
+  border: 1px solid $white;
+  border-radius: 10px;
+}
+
+.user-login__reg-link:hover {
+  background-color: $white;
+  color: $blue;
+  transition: background-color 0.5s linear, color 0.5s linear;
+}
+
+@media (min-width: 768px) {
+  .user-login__item {
+    display: block;
+    margin-right: 28px;
+  }
+
+  .user-login {
+    display: flex;
+  }
+}
+
+@media (min-width: 1440px) {
+
+  .user-login__reg-link {
+    font-size: 18px;
+
+    padding: 18px 42px;
+  }
+
+}
+
+
+
+
+

@@ -1,0 +1,108 @@
+.start-crypto {
+  padding-bottom: 78px;
+  border-bottom: 1px solid $light-gray;
+}
+
+.start-crypto__img {
+  margin-bottom: 60px;
+  width: 325px;
+  height: 234px;
+}
+
+.start-crypto__inner {
+  margin-left: 15px;
+}
+
+
+.start-crypto__title {
+  width: 278px;
+  margin: 0;
+  margin-bottom: 43px;
+
+  @include font(24px, 600, 1.25, -0.5px);
+  color: $black;
+}
+
+.start-crypto__button {
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+
+  padding: 18px 49px 25px;
+
+  @include font(18px, bold, 1.22, -0.5px);
+  color: $white;
+}
+
+.start-crypto__button:hover {
+  transform: scale(1.04);
+  transition: 1s;
+  color: $light-white;
+}
+
+@media (min-width: 768px) {
+
+  .start-crypto {
+    padding-top: 20px;
+  }
+
+  .start-crypto__wrapper {
+    display: flex;
+  }
+
+  .start-crypto__img {
+    width: 393px;
+    height: 258px;
+
+    margin-bottom: 0;
+  }
+
+  .start-crypto__inner {
+    margin-left: 0;
+    margin-top: 60px;
+  }
+
+  .start-crypto__title {
+    width: 278px;
+
+    margin-bottom: 37px;
+  }
+
+  .start-crypto__button {
+    padding: 18px 48px 21px;
+  }
+
+}
+
+@media (min-width: 1440px) {
+
+  .start-crypto {
+    border: none;
+    padding-top: 30px;
+  }
+
+  .start-crypto__wrapper {
+    width: 897px;
+    margin-left: 11%;
+  }
+
+  .start-crypto__img {
+    width: 414px;
+    height: 275px;
+  }
+
+  .start-crypto__inner {
+    margin-top: 55px;
+  }
+
+  .start-crypto__title {
+    width: 466px;
+    @include font(36px, 600, 1.33, -0.5px);
+  }
+
+  .start-crypto__button {
+    padding: 18px 64px 21px;
+  }
+}
+
+

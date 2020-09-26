@@ -1,0 +1,34 @@
+.site-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+.site-list__link {
+  @include font(16px, 500, 1.33, -0.5px);
+  color: $white;
+
+  text-decoration: none;
+}
+
+.site-list__link:hover {
+  color: $yellow;
+  transition: color 0.5s linear;
+}
+
+@media (min-width: 1440px) {
+
+  .site-list {
+    display: flex;
+  }
+
+  .site-list__item {
+    margin-right: 85px;
+  }
+
+  .site-list__item:last-child {
+    margin-right: 0;
+  }
+
+}

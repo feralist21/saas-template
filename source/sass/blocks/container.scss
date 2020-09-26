@@ -1,0 +1,15 @@
+.container {
+  width: 375px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 1440px;
+    padding-left: 49px;
+    padding-right: 49px;
+  }
+}

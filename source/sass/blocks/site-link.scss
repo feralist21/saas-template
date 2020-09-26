@@ -1,0 +1,13 @@
+.site-link {
+  @include font(29px, bold, 35px, -0.5px);
+  color: $white;
+  text-decoration: none;
+
+  &--black {
+    color: $black;
+  }
+}
+
+.site-link__point {
+  color: $light-blue;
+}

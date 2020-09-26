@@ -1,0 +1,29 @@
+.footer-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-list__item {
+  @include font(16px, normal, 2.22, -0.5px);
+  color: $gray;
+}
+
+.footer-list__item--title {
+  font-weight: 600;
+  color: $black;
+}
+
+.footer-list__link {
+  text-decoration: none;
+  color: $black;
+}
+
+.footer-list__link:hover {
+  text-decoration: underline;
+
+}
+
+
+
+
