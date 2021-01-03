@@ -45,6 +45,7 @@
 
   .security__wrapper {
     display: flex;
+    justify-content: center;
     align-items: center;
   }
 
@@ -70,7 +71,7 @@
 
   .security__img {
     position: absolute;
-    bottom: 0;
+    bottom: 35px;
 
     margin-left: 0;
     width: 670px;
@@ -90,8 +91,6 @@
   .security__text {
     width: 350px;
   }
-
-
 }
 
 

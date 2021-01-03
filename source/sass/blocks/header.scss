@@ -94,12 +94,12 @@
   .header__intro-wrapper {
     display: flex;
     position: relative;
+    justify-content: center;
   }
 
   .header__intro-wrapper picture {
     order: 2;
   }
-
 
   .header__image {
     width: 417px;
@@ -112,6 +112,10 @@
   .header {
     padding-top: 26px;
     padding-bottom: 176px;
+  }
+
+  .header__intro-wrapper {
+    justify-content: start;
   }
 
   .header__burger {

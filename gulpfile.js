@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 const {src, dest} = require('gulp');
 const gulp = require("gulp");
@@ -40,7 +40,7 @@ var path = {
     img: "source/img/**/*.{jpg,svg,png}"
   },
   clean: "./build"
-}
+};
 
 /* Таски */
 function browsersync(done) {
@@ -49,7 +49,7 @@ function browsersync(done) {
       baseDir: "./build/"
     },
     port: 3000
-  })
+  });
 }
 
 function browserSyncReload(done) {

@@ -3,6 +3,11 @@
   border-bottom: 1px solid $light-gray;
 }
 
+.start-crypto__wrapper {
+  width: 375px;
+  margin: 0 auto;
+}
+
 .start-crypto__img {
   margin-bottom: 60px;
   width: 325px;
@@ -12,7 +17,6 @@
 .start-crypto__inner {
   margin-left: 15px;
 }
-
 
 .start-crypto__title {
   width: 278px;
@@ -48,6 +52,8 @@
 
   .start-crypto__wrapper {
     display: flex;
+    justify-content: center;
+    width: auto;
   }
 
   .start-crypto__img {
