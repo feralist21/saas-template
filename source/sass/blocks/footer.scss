@@ -34,7 +34,17 @@
   @include font(14px, normal, 1.32, -0.5px);
 }
 
+@media (min-width: 500px) and (max-width: 767px) {
+  .footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 68px;
+  }
 
+  .footer__list-products, .footer__list-choose, .footer__list-social  {
+    margin-bottom: 0;
+  }
+}
 @media (min-width: 768px) {
 
   .footer {

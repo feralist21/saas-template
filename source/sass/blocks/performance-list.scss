@@ -41,6 +41,13 @@
   margin-bottom: 0;
 }
 
+@media (min-width: 560px) and (max-width: 767px) {
+  .performance-list {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 @media (min-width: 768px) {
   .performance-list {
     display: flex;

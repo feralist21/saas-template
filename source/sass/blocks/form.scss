@@ -21,13 +21,12 @@
   @include font(18px, bold, 1.22, -0.5px);
   color: $white;
   border: none;
+  cursor: pointer;
+  transition: background-color 0.3s linear;
 }
 
 .form__button:hover {
-  transform: scale(1.08);
-  transition: 1s;
-  color: $light-white;
-  cursor: pointer;
+  background-color: $light-blue;
 }
 
 @media (min-width: 768px) {

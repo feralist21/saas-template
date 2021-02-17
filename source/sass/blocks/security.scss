@@ -72,6 +72,7 @@
   .security__img {
     position: absolute;
     bottom: 35px;
+    z-index: 0;
 
     margin-left: 0;
     width: 670px;
@@ -82,6 +83,7 @@
     width: 437px;
     margin-left: 43%;
     margin-right: auto;
+    z-index: 1;
   }
 
   .security__title {

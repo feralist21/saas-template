@@ -41,36 +41,15 @@
 
 .header__burger {
   width: 23px;
-  height: 2px;
-  background-color: $white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+  height: 14px;
   margin-right: 12px;
-
-  &::after {
-    content: '';
-    display: block;
-    width: 23px;
-    height: 2px;
-    background-color: $white;
-    border-radius: 4px;
-    position: relative;
-    top: 1px;
-    left: -6px;
-  }
-
-  &::before {
-    content: '';
-    display: block;
-    width: 23px;
-    height: 2px;
-    background-color: $white;
-    border-radius: 4px;
-    position: relative;
-    top: -5px;
-    left: -6px;
-  }
+  padding: 0;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  background-image: url("../img/hamburger.svg");
+  background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 @media (min-width: 768px) {
@@ -128,6 +107,7 @@
 
   .header__left {
     width: 540px;
+    z-index: 1;
   }
 
   .header__features {
@@ -141,6 +121,7 @@
     position: absolute;
     top: -117px;
     right: -35px;
+    z-index: 0;
   }
 
   .header__text {
